@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--  Header -->
+    <header
+      class="mx-auto flex justify-between bg-orange-50/50 z-[1] items-center pl-[72px] pt-2 fixed top-0 w-full"
+    >
+      <div class="text-2xl font-bold">
+        <img src="images/Logo.png" alt="Farargy Logo" class="h-17 w-44" />
+      </div>
+      <nav>
+        <ul class="flex space-x-8 text-sm pr-[72px] pt-2">
+          <li><a href="#main-page" class="hover:text-orange-500">Home</a></li>
+          <li><a href="#" class="hover:text-orange-500">Our Products</a></li>
+          <li>
+            <a href="#" class="hover:text-orange-500">Customize Your Order</a>
+          </li>
+          <li><a href="#" class="hover:text-orange-500">How It Works</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main content -->
+    <section id="main-page" class="relative mx-auto">
+      <img
+        src="images/Vector.png"
+        alt="Chicken Dish"
+        class="bg-gradient-to-l z-[-1] md:bg-gradient-to-r absolute w-[800px] h-[670px] top-0 right-0"
+      />
+
+      <div class="flex flex-col-reverse items-center md:ml-20 md:flex-row">
+        <div class="md:w-1/2 space-y-6">
+          <h1 class="text-3xl mt-40 md:text-5xl text-center font-bold">
+            Pure Chicken Made Just for You
+          </h1>
+          <p class="text-lg text-gray-600 text-center">
+            Customize your meal with 100% pure, hormone-free chicken. Enjoy
+            healthy, delicious options tailored to your taste and dietary needs,
+            all delivered fresh to your door.
+          </p>
+          <div class="flex space-x-8 text-center justify-center">
+            <div>
+              <h3 class="text-2xl font-bold">Pure</h3>
+              <p class="text-3xl font-extrabold">100%</p>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold">Hormones</h3>
+              <p class="text-3xl font-extrabold">0%</p>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold">Additives</h3>
+              <p class="text-3xl font-extrabold">0%</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image-->
+        <div class="flex md:w-1/2 space-x-12 md:mt-20 mt-20 md:pl-20">
+          <img
+            src="images/mainimg.png"
+            alt="Chicken Dish"
+            class="relative rounded-full w-[450px] h-[450px] top-[70px]"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto pt-[150px]">
+        <h1 class="text-[32px] font-semibold text-center">
+          Discover Your <span class="text-orange-500">Perfect</span> Chicken
+        </h1>
+        <p class="text-[18px] text-center text-[#615E5E] mb-8">
+          Explore our range of pure, healthy chicken products, each customizable
+          to meet your unique needs.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div>
+            <img src="images/img1.png" alt="Fresh Chicken" class="mx-auto" />
+            <div class="p-6 text-center">
+              <h2 class="text-xl font-semibold mb-2">Fresh & Pure, Your Way</h2>
+              <p class="text-[#615E5E] mt-2">
+                Our chicken is naturally raised with no hormones, no
+                antibiotics—just real, healthy goodness.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div>
+            <img src="images/img2.png" alt="Fresh Chicken" class="mx-auto" />
+            <div class="p-6 text-center">
+              <h2 class="text-xl font-semibold mb-[8px]">
+                Ready to Cook, Ready for You
+              </h2>
+              <p class="text-[#615E5E] mt-2">
+                Prepped with natural seasonings, our ready-to-cook chicken is
+                healthy and quick. Customize it for a meal that’s perfect for
+                you.
+              </p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div>
+            <img src="images/img3.png" alt="Fresh Chicken" class="mx-auto" />
+
+            <div class="p-6 text-center">
+              <h2 class="text-xl font-semibold mb-2">Eat Right, Right Now</h2>
+
+              <p class="text-secondary-400 mt-2">
+                Fully cooked, pure chicken that’s ready when you are. Enjoy a
+                meal that’s healthy and tailored to your taste.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="container mx-auto justify-center grid items-center grid-cols-12 mt-5 xs:mt-10"
+      >
+        <div class="col-span-12 md:col-span-5 p-[40px]">
+          <h2
+            class="text-xl xs:text-1xl md:text-2xl justify-center xl:text-4xl font-semibold text-[#181717] mb-2"
+          >
+            Your Health, <span class="text-[#F7941D]">Your Rules</span>
+          </h2>
+
+          <p class="text-[#615E5E] max-md:text-sm xl:text-lg mb-4">
+            At Farragy, we believe in food that's not just pure but also
+            personalized. Customize your order to avoid allergens or to match
+            your taste preferences. It's all about what works for you.
+          </p>
+
+          <ul class="list-disc list-inside text-[#615E5E]">
+            <li>Adjust ingredients to suit your needs.</li>
+            <li>Choose from a variety of allergen-free options.</li>
+            <li>Enjoy the same great taste, customized for you.</li>
+          </ul>
+        </div>
+
+        <!-- Image Section -->
+        <div
+          class="md:col-span-7 col-span-12 order-first md:order-last p-[40px]"
+        >
+          <img
+            src="images/image 4.png"
+            alt="Chef with vegetables"
+            class="rounded-4g"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="container mx-auto justify-center items-center grid grid-cols-12 mt-5 xs:mt-10"
+      >
+        <!-- Image Section -->
+        <div class="col-span-12 md:col-span-7 p-[40px]">
+          <img
+            src="images/image5.png"
+            alt="Chef with vegetables"
+            class="rounded-4g"
+          />
+        </div>
+
+        <div class="col-span-12 md:col-span-5 p-[40px]">
+          <h2
+            class="text-xl xs:text-1xl md:text-2xl xl:text-4xl font-semibold text-[#181717] mb-2"
+          >
+            Why <span class="text-[#F7941D]">We’re Different</span>
+          </h2>
+
+          <p class="text-[#615E5E] max-md:text-sm xl:text-lg mb-4">
+            Our commitment to purity and quality means we never compromise on
+            health. Every bite of Farargy chicken is free from hormones and
+            antibiotics—pure and simple.
+          </p>
+
+          <ul class="list-disc list-inside text-[#615E5E]">
+            <li>
+              <span class="font-semibold">100% Pure:</span> Chicken: Naturally
+              raised, nothing added.
+            </li>
+            <li>
+              <span class="font-semibold">Farm Fresh:</span> From trusted farms
+              to your table.
+            </li>
+            <li>
+              <span class="font-semibold max-md:mb-[120px]">Farm Fresh:</span>
+              From trusted farms to your table.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+<footer class="flex flex-col mt-28 border-t-2 border-orange-400">
+      <dev>
+        <img src="images/Logo.png" alt="Farargy Logo" class="mx-auto  w-[220px] py-5" />
+      </dev>
+
+      <p class="text-center px-40 text-[#615E5E] pb-5">
+        “At Farargy, we’re committed to bringing you healthy, pure
+        chicken—raised without hormones or antibiotics. Customize your meals to
+        fit your lifestyle, and enjoy delicious food that’s tailored just for
+        you.
+      </p>
+      <dev class="flex flex-row justify-center gap-2 py-5">
+        <img src="images/Vector.svg" class="bg-orange-400 py-2 w-8 h-8 rounded-full " />
+        <img src="images/instagram.svg" class="bg-orange-400 py-2 w-8 h-8 rounded-full" />
+        <img src="images/facebook.svg" class="bg-orange-400 py-2 w-8 h-8 rounded-full" />
+      </dev>
+      <p class="text-center text-[#615E5E] py-5">
+        &copy; 2022 Farragy. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
